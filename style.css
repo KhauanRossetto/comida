@@ -148,3 +148,11 @@
     font-size: 20px;
     color: #FFFFFF;
 }
+.escondido{
+    display: none;
+
+}
+.janelaConfirmacao{
+    display: flex;
+    height: 500px;
+}
