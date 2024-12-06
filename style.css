@@ -109,7 +109,7 @@
 }
 
 .verde {
-    border-color: green;
+    border-color: #32B72F;
 }
 
 .itensSobremesas {
@@ -117,11 +117,6 @@
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3) ;
     border: 2px solid transparent; 
 }
-
-.verde {
-    border-color: green;
-}
-
 .fecharPedido {
     background-color: white;
     width: 100%;
@@ -152,7 +147,59 @@
     display: none;
 
 }
-.janelaConfirmacao{
+.janelaConfirmacao {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100vw;
+    height: 100vh; 
     display: flex;
-    height: 500px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 22px;
+    z-index: 9999;
+}
+
+.infoPedido {
+    background-color: #50D074; 
+    padding: 20px;
+    border-radius: 9px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: white;
+    height: 353px;
+    line-height: 1.5;
+}
+
+.botaoCancelamento {
+    background-color: #50D074;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 22px;
+}
+.escondido {
+    display: none;
+}
+.botaoEnviar{
+    background-color: #FFFFFF;
+    color: #50D074;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 22px;
+}
+.selected {
+    border-color: #32B72F;
+}
+.botaoItens.ativar {
+    background-color: #32B72F;
+    color: #FFFFFF;
+    font-size: 20px;
 }

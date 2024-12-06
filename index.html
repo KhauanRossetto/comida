@@ -10,14 +10,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Righteous&display=swap">
-    <style>
-        .selected {
-            border-color: green;
-        }
-        .botaoItens.ativar {
-            background-color: green;
-        }
-    </style>
 </head>
 <body>
     <div class="container">
@@ -27,11 +19,11 @@
         </div>
         <p class="tituloUm">Primeiro, seu prato</p>
         <div class="pratos">
-            <div class="itensPratos" data-nome="Bife Acebolado" data-preco="14.90" onclick="selecionarItem(this)">
+            <div class="itensPratos" data-nome="Bife Acebolado" data-preco="56.90" onclick="selecionarItem(this)">
                 <img src="projeto__driven-eats__imagens/pf_carne.jpg" alt="prato de carne">
                 <p>Bife Acebolado</p>
                 <h1>Um pouco de batata, um pouco de salada</h1>
-                <h2>14,90</h2>
+                <h2>56,90</h2>
             </div>
             <div class="itensPratos" data-nome="Bife Acebolado" data-preco="14.90" onclick="selecionarItem(this)">
                 <img src="projeto__driven-eats__imagens/pf_carne.jpg" alt="prato de carne">
@@ -39,43 +31,113 @@
                 <h1>Um pouco de batata, um pouco de salada</h1>
                 <h2>14,90</h2>
             </div>
+            <div class="itensPratos" data-nome="Bife Acebolado" data-preco="85.90" onclick="selecionarItem(this)">
+                <img src="projeto__driven-eats__imagens/pf_carne.jpg" alt="prato de carne">
+                <p>Bife Acebolado</p>
+                <h1>Um pouco de batata, um pouco de salada</h1>
+                <h2>85,90</h2>
+            </div>
+            <div class="itensPratos" data-nome="Bife Acebolado" data-preco="45.90" onclick="selecionarItem(this)">
+                <img src="projeto__driven-eats__imagens/pf_carne.jpg" alt="prato de carne">
+                <p>Bife Acebolado</p>
+                <h1>Um pouco de batata, um pouco de salada</h1>
+                <h2>45,90</h2>
+            </div>
+            <div class="itensPratos" data-nome="Bife Acebolado" data-preco="78.90" onclick="selecionarItem(this)">
+                <img src="projeto__driven-eats__imagens/pf_carne.jpg" alt="prato de carne">
+                <p>Bife Acebolado</p>
+                <h1>Um pouco de batata, um pouco de salada</h1>
+                <h2>78,90</h2>
+            </div>
+            <div class="itensPratos" data-nome="Bife Acebolado" data-preco="136.90" onclick="selecionarItem(this)">
+                <img src="projeto__driven-eats__imagens/pf_carne.jpg" alt="prato de carne">
+                <p>Bife Acebolado</p>
+                <h1>Um pouco de batata, um pouco de salada</h1>
+                <h2>136,90</h2>
+            </div>
+            <div class="itensPratos" data-nome="Bife Acebolado" data-preco="884.90" onclick="selecionarItem(this)">
+                <img src="projeto__driven-eats__imagens/pf_carne.jpg" alt="prato de carne">
+                <p>Bife Acebolado</p>
+                <h1>Um pouco de batata, um pouco de salada</h1>
+                <h2>884,90</h2>
+            </div>
+            <div class="itensPratos" data-nome="Bife Acebolado" data-preco="00.00" onclick="selecionarItem(this)">
+                <img src="projeto__driven-eats__imagens/pf_carne.jpg" alt="prato de carne">
+                <p>Bife Acebolado</p>
+                <h1>Um pouco de batata, um pouco de salada</h1>
+                <h2>00,00</h2>
+            </div>
             <div class="itensPratos" data-nome="Bife Acebolado" data-preco="14.90" onclick="selecionarItem(this)">
                 <img src="projeto__driven-eats__imagens/pf_carne.jpg" alt="prato de carne">
                 <p>Bife Acebolado</p>
                 <h1>Um pouco de batata, um pouco de salada</h1>
                 <h2>14,90</h2>
             </div>
-            <!-- Repita os outros itens de pratos aqui -->
         </div>
         <p class="titulos">Agora, sua bebida</p>
         <div class="bebidas">
-            <div class="itensBebidas" data-nome="Coca-Cola" data-preco="4.90" onclick="selecionarItem(this)">
+            <div class="itensBebidas" data-nome="Coca-Cola" data-preco="58.90" onclick="selecionarItem(this)">
                 <img src="projeto__driven-eats__imagens/coca.png" alt="Coca-Cola">
                 <p>Coca-Cola</p>
                 <h1>Lata 350ml</h1>
-                <h2>4,90</h2>
+                <h2>58,90</h2>
             </div>
-            <div class="itensBebidas" data-nome="Coca-Cola" data-preco="4.90" onclick="selecionarItem(this)">
+            <div class="itensBebidas" data-nome="Coca-Cola" data-preco="98.90" onclick="selecionarItem(this)">
                 <img src="projeto__driven-eats__imagens/coca.png" alt="Coca-Cola">
                 <p>Coca-Cola</p>
                 <h1>Lata 350ml</h1>
-                <h2>4,90</h2>
+                <h2>98,90</h2>
             </div>
-            <div class="itensBebidas" data-nome="Coca-Cola" data-preco="4.90" onclick="selecionarItem(this)">
+            <div class="itensBebidas" data-nome="Coca-Cola" data-preco="22.90" onclick="selecionarItem(this)">
                 <img src="projeto__driven-eats__imagens/coca.png" alt="Coca-Cola">
                 <p>Coca-Cola</p>
                 <h1>Lata 350ml</h1>
-                <h2>4,90</h2>
+                <h2>22,90</h2>
             </div>
-            <!-- Repita os outros itens de bebidas aqui -->
+            <div class="itensBebidas" data-nome="Coca-Cola" data-preco="2.90" onclick="selecionarItem(this)">
+                <img src="projeto__driven-eats__imagens/coca.png" alt="Coca-Cola">
+                <p>Coca-Cola</p>
+                <h1>Lata 350ml</h1>
+                <h2>2,90</h2>
+            </div>
+            <div class="itensBebidas" data-nome="Coca-Cola" data-preco="26.90" onclick="selecionarItem(this)">
+                <img src="projeto__driven-eats__imagens/coca.png" alt="Coca-Cola">
+                <p>Coca-Cola</p>
+                <h1>Lata 350ml</h1>
+                <h2>26,90</h2>
+            </div>
+            <div class="itensBebidas" data-nome="Coca-Cola" data-preco="5.90" onclick="selecionarItem(this)">
+                <img src="projeto__driven-eats__imagens/coca.png" alt="Coca-Cola">
+                <p>Coca-Cola</p>
+                <h1>Lata 350ml</h1>
+                <h2>5,90</h2>
+            </div>
+            <div class="itensBebidas" data-nome="Coca-Cola" data-preco="20.90" onclick="selecionarItem(this)">
+                <img src="projeto__driven-eats__imagens/coca.png" alt="Coca-Cola">
+                <p>Coca-Cola</p>
+                <h1>Lata 350ml</h1>
+                <h2>20,90</h2>
+            </div>
+            <div class="itensBebidas" data-nome="Coca-Cola" data-preco="24.90" onclick="selecionarItem(this)">
+                <img src="projeto__driven-eats__imagens/coca.png" alt="Coca-Cola">
+                <p>Coca-Cola</p>
+                <h1>Lata 350ml</h1>
+                <h2>24,90</h2>
+            </div>
+            <div class="itensBebidas" data-nome="Coca-Cola" data-preco="78.90" onclick="selecionarItem(this)">
+                <img src="projeto__driven-eats__imagens/coca.png" alt="Coca-Cola">
+                <p>Coca-Cola</p>
+                <h1>Lata 350ml</h1>
+                <h2>78,90</h2>
+            </div>
         </div>
         <p class="titulos">Por fim, sua sobremesa</p>
         <div class="sobremesas">
-            <div class="itensSobremesas" data-nome="Brownie" data-preco="7.90" onclick="selecionarItem(this)">
+            <div class="itensSobremesas" data-nome="Brownie" data-preco="745.90" onclick="selecionarItem(this)">
                 <img src="projeto__driven-eats__imagens/brownie.jpg" alt="Brownie">
                 <p>Brownie</p>
                 <h1>Apenas Brownie</h1>
-                <h2>7,90</h2>
+                <h2>745,90</h2>
             </div>
             <div class="itensSobremesas" data-nome="Brownie" data-preco="7.90" onclick="selecionarItem(this)">
                 <img src="projeto__driven-eats__imagens/brownie.jpg" alt="Brownie">
@@ -83,26 +145,69 @@
                 <h1>Apenas Brownie</h1>
                 <h2>7,90</h2>
             </div>
+            <div class="itensSobremesas" data-nome="Brownie" data-preco="758.90" onclick="selecionarItem(this)">
+                <img src="projeto__driven-eats__imagens/brownie.jpg" alt="Brownie">
+                <p>Brownie</p>
+                <h1>Apenas Brownie</h1>
+                <h2>758,90</h2>
+            </div>
+            <div class="itensSobremesas" data-nome="Brownie" data-preco="74.90" onclick="selecionarItem(this)">
+                <img src="projeto__driven-eats__imagens/brownie.jpg" alt="Brownie">
+                <p>Brownie</p>
+                <h1>Apenas Brownie</h1>
+                <h2>74,90</h2>
+            </div>
+            <div class="itensSobremesas" data-nome="Brownie" data-preco="67.90" onclick="selecionarItem(this)">
+                <img src="projeto__driven-eats__imagens/brownie.jpg" alt="Brownie">
+                <p>Brownie</p>
+                <h1>Apenas Brownie</h1>
+                <h2>67,90</h2>
+            </div>
+            <div class="itensSobremesas" data-nome="Brownie" data-preco="74.90" onclick="selecionarItem(this)">
+                <img src="projeto__driven-eats__imagens/brownie.jpg" alt="Brownie">
+                <p>Brownie</p>
+                <h1>Apenas Brownie</h1>
+                <h2>74,90</h2>
+            </div>
+            <div class="itensSobremesas" data-nome="Brownie" data-preco="47.90" onclick="selecionarItem(this)">
+                <img src="projeto__driven-eats__imagens/brownie.jpg" alt="Brownie">
+                <p>Brownie</p>
+                <h1>Apenas Brownie</h1>
+                <h2>47,90</h2>
+            </div>
             <div class="itensSobremesas" data-nome="Brownie" data-preco="7.90" onclick="selecionarItem(this)">
                 <img src="projeto__driven-eats__imagens/brownie.jpg" alt="Brownie">
                 <p>Brownie</p>
                 <h1>Apenas Brownie</h1>
                 <h2>7,90</h2>
             </div>
-            <!-- Repita os outros itens de sobremesas aqui -->
+            <div class="itensSobremesas" data-nome="Brownie" data-preco="785.90" onclick="selecionarItem(this)">
+                <img src="projeto__driven-eats__imagens/brownie.jpg" alt="Brownie">
+                <p>Brownie</p>
+                <h1>Apenas Brownie</h1>
+                <h2>785,90</h2>
+            </div>
+            <div class="itensSobremesas" data-nome="Brownie" data-preco="7.90" onclick="selecionarItem(this)">
+                <img src="projeto__driven-eats__imagens/brownie.jpg" alt="Brownie">
+                <p>Brownie</p>
+                <h1>Apenas Brownie</h1>
+                <h2>7,90</h2>
+            </div>
         </div>
         <div class="fecharPedido">
             <button id="acaoBotao" class="botaoItens" disabled><p>Selecione os 3 itens para fechar o pedido</p></button>
         </div>
     </div>
-
-    <div class="janelaConfirmacao escondido">
+<div class="janelaConfirmacao escondido">
+    <div class="infoPedido">
+        <h4>Confirme seu pedido</h4>
         <div id="detalhesPedido"></div>
-        <p id="totalPedido"></p>
-        <button onclick="botaoCancelar()">Cancelar</button>
-        <button onclick="enviarPedidoWhatsApp()">Enviar pedido</button>
+        <p>Total: <span id="totalPedido"></span></p>
+        <button class="botaoEnviar" onclick="enviarPedidoWhatsApp()"> Tudo certo, pode pedir!</button>
+        <br>
+        <button class="botaoCancelamento" onclick="botaoCancelar()">Cancelar</button>
     </div>
-
+</div>
     <script src="script.js"></script>
 </body>
 </html>
